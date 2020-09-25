@@ -113,7 +113,7 @@ SSH into the control node and follow the steps below:
 
 The DATA from this sent to the ELK can be analyzed by going to:
 http://52.183.8.231:5601/app/kibana
-![Kibana_Home_Page](Image/Kibana_Home_Page.png)
+![Kibana_Home_Page](Images/Kibana_Home_Page.png)
 
 ## Commands for downloading the playbooks
 install-elk.yml
