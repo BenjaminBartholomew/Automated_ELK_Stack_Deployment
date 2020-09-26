@@ -12,7 +12,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - [filebeat-playbook.yml](Ansible_Scripts/filebeat-playbook.yml)
 - [metricbeat-configuration.yml](Ansible_Scripts/metricbeat-configuration.yml)
 - [metricbeat-playbook.yml](Ansible_Scripts/metricbeat-playbook.yml)
-- [metricbeat-playbook.yml](Ansible_Scripts/pentest.yml)
+- [pentest.yml](Ansible_Scripts/pentest.yml)
 
 
 This document contains the following details:
@@ -120,20 +120,20 @@ http://52.183.8.231:5601/app/kibana
 ![Kibana_Home_Page](Images/Kibana_Home_Page.png)
 
 ## Commands for downloading the playbooks
-install-elk.yml
+install-elk.yml:
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/install-elk.yml  > /etc/ansible/files/install-elk.yml’
 
-filebeat-configuration.yml
+filebeat-configuration.yml:
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/filebeat-configuration.yml > /etc/ansible/files/filebeat-configration.yml’
 
-filebeat-playbook.yml
+filebeat-playbook.yml:
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/filebeat-playbook.yml > /etc/ansible/files/filebeat-playbook.yml’
 
-metricbeat-configuration.yml
+metricbeat-configuration.yml:
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/metricbeat-configuration.yml > /etc/ansible/files/filebeat-configuration.yml’
 
-metricbeat-playbook.yml
+metricbeat-playbook.yml:
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/metricbeat-playbook.yml > /etc/ansible/files/filebeat-configuration.yml’
 
-pentest.yml
+pentest.yml:
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack_Deployment/blob/master/Ansible_Scripts/pentest.yml > /etc/ansible/files/pentest.yml’
