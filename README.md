@@ -40,13 +40,13 @@ Filebeat collects event log data and authenticates their integrity.
 Metricbeat collects metrics on the system and services running on a server.
 
 
-| Name     | Function | IP Address | Operating System |
-|-------------|-------------|----------------|--------------------------|
-| Jump Box | Gateway  | 10.0.0.4   | Linux       |
-| Web-1      |Web Server| 10.0.0.10  | Linux       |
-| Web-2      |Web Server| 10.0.0.11  | Linux       |
-| Web-3      |Web Server| 10.0.0.5    | Linux       |
-|ELK | Web Server | 10.1.0.4 | Linux |
+| Name     | Function | IP Address | Operating System  |
+|----------|----------|------------|-------------------|
+| Jump Box |Gateway   | 10.0.0.4   | Linux Ubuntu 18.04|
+| Web-1    |Web Server| 10.0.0.10  | Linux Ubuntu 18.04|
+| Web-2    |Web Server| 10.0.0.11  | Linux Ubuntu 18.04|
+| Web-3    |Web Server| 10.0.0.5   | Linux Ubuntu 18.04|
+| ELK      |Web Server| 10.1.0.4   | Linux Ubuntu 18.04|
 
 ## Access Policies
 
@@ -63,8 +63,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-|SSHJumpBox |        Yes         |     10.0.0.4    |
-|   Allow-RDP   |          Yes        | 71.197.72.213 |
+|Jump Box  |   Yes               |     71.197.72.213    |
+|Web-1     |   No                |     10.0.0.4         |
+|Web-2     |   No                |     10.0.0.4         |
+|Web-3     |   No                |     10.0.0.4         |
+|ELK       |   Yes               |     71.197.72.213    |
 
 
 ## Elk Configuration
