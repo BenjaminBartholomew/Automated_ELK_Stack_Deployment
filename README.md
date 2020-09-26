@@ -12,6 +12,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - [filebeat-playbook.yml](Ansible_Scripts/filebeat-playbook.yml)
 - [metricbeat-configuration.yml](Ansible_Scripts/metricbeat-configuration.yml)
 - [metricbeat-playbook.yml](Ansible_Scripts/metricbeat-playbook.yml)
+- [metricbeat-playbook.yml](Ansible_Scripts/pentest.yml)
 
 
 This document contains the following details:
@@ -134,3 +135,5 @@ metricbeat-configuration.yml
 metricbeat-playbook.yml
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/metricbeat-playbook.yml > /etc/ansible/files/filebeat-configuration.yml’
 
+pentest.yml
+`curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack_Deployment/blob/master/Ansible_Scripts/pentest.yml > /etc/ansible/files/pentest.yml’
