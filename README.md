@@ -87,7 +87,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![asdf](Images/sudo_docker_ps.png)
+![sudo_docker_ps](Images/sudo_docker_ps.png)
 
 ## Target Machines & Beats
 This ELK server is configured to monitor the following machines:
