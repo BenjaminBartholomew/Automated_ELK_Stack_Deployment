@@ -124,7 +124,7 @@ install-elk.yml:
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/install-elk.yml  > /etc/ansible/files/install-elk.yml’
 
 filebeat-configuration.yml:
-`curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/filebeat-configuration.yml > /etc/ansible/files/filebeat-configration.yml’
+`curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/filebeat-configuration.yml > /etc/ansible/files/filebeat-configuration.yml’
 
 filebeat-playbook.yml:
 `curl https://github.com/BenjaminBartholomew/Automated_ELK_Stack/blob/master/Ansible_YML_Scripts/filebeat-playbook.yml > /etc/ansible/files/filebeat-playbook.yml’
